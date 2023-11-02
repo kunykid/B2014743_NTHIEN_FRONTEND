@@ -25,7 +25,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+   props: {
+    contact: { type: Object, required: true },
+  },
+};
 </script>
 
 <style>
